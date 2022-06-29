@@ -13,6 +13,7 @@
 </head>
 
 <body>
+    <button id="myBtn" class="myBtn">Top</button>
     <!-- Google translate div -->
     <div class="google_trans">
         <div id="google_translate_element"></div>
@@ -26,10 +27,18 @@
                 <img src="assets/school.svg" class="icon_ng"><span>Business & Energy School</span></a></li>
         <li><a href="energy-space.html">
                 <img src="assets/rocket.svg" class="icon_ng"><span>Energy Space</span></a></li>
-        <li><a href="blog.html">
-                <img src="assets/blog.svg" class="icon_ng"><span>Blog</span></a></li>
+        <li>
+            <a href="blog.php">
+                <img src="assets/blog.svg" class="icon_ng"><span>Blog</span>
+            </a>
+        </li>
+        <li>
+            <a href="mentor.html" class="mentor">
+                <img src="assets/mentor.svg" class="icon_ng"><span>Mentoring Program</span>
+            </a>
+        </li>
     </div>
-    <div class="menu_bar menu_bar_fixed">
+    <div class="menu_bar" style="position: fixed;">
         <div class="logo">
             <a href="index.html">
                 <img src="./assets/logo.png" alt="eg_logo" class="logo_img">
@@ -40,7 +49,12 @@
                 <li><a href="index.html">Home</a></li>
                 <li><a href="business-energy.html">Business & Energy School</a></li>
                 <li><a href="energy-space.html">Energy Space</a></li>
-                <li><a href="blog.html">Blog</a></li>
+                <li><a href="blog.php">Blog</a></li>
+                <li>
+                    <a href="mentor.html" class="mentor">
+                        Mentoring Program
+                    </a>
+                </li>
             </div>
         </div>
     </div>
@@ -48,20 +62,20 @@
     <!-- End Menu for all pages -->
     <div class="homepage_banner">
         <div class="home_textcontainer">
-            <div class="home_logo">
-                <img src="assets/logo.png" alt="logo">
-            </div>
             <div class="img_text">
                 Une generation en action
             </div>
         </div>
     </div>
     <section class="about_section">
+        <div class="spacelogo">
+            <img src="assets/logo.png" alt="eg_logo">
+        </div>
         <div class="about_title">
             About <span>Energy Generation</span>
         </div>
         <div class="about_text_container">
-            <div class="about_text">
+            <div class="about_text stagger_el">
                 <p>Energy Generation is a <span class="blue">pan-African organization</span> that supports young
                     Africans in addressing their
                     generation's most pressing challenges (in energy, agriculture, health...) through
@@ -69,13 +83,14 @@
                 </p>
             </div><br>
 
-            <div class="about_text">
+            <div class="about_text stagger_el">
                 <p>Energy Generation aims to support and promote technological and entrepreneurial
                     innovation in order to identify, develop and spread "<span class="blue">made in Africa</span>"
                     hardware solutions.</p>
             </div><br>
 
-            <div class="about_text">First and foremost, Energy Generation is a <span class="blue">human centered
+            <div class="about_text stagger_el">First and foremost, Energy Generation is a <span class="blue">human
+                    centered
                     platform</span> offering individuals
                 opportunities to unlock and express their full <span class="blue">creative potential</span>..
 
@@ -84,7 +99,7 @@
     </section>
 
     <div class="missionvision">
-        <div class="mission_text">
+        <div class="mission_text stagger_el2">
             <div class="mission_title">MISSION & VISION</div>
             <p>At Energy Generation we are convinced that African youth have the potential to solve the most
                 pressing challenges of their generation (access to clean and sustainable energy, food
@@ -93,17 +108,17 @@
                 solutions “made in Africa” and adapted to the continent.
             </p>
         </div>
-        <div class="visionphoto">
+        <div class="visionphoto stagger_el2">
             <img src="assets/accueilimg.png" alt="">
         </div>
-        <div class="impacts">
+        <div class="impacts stagger_el2">
             <div class="impacttitre">
                 IMPACTS
             </div>
             <ul>
                 <li>ENTREPRENEURSHIP</li>
-                <li>EDUCATION</li>
                 <li>ACCESS TO ENERGY</li>
+                <li>EDUCATION</li>
             </ul>
         </div>
     </div>
@@ -112,52 +127,52 @@
             OUR PEOPLE
         </div>
         <div class="peoples_cont">
-            <div class="people_person">
+            <div class="people_person stagger_el3">
                 <img src="assets/people1.png" alt="people1.png">
                 <div class="people_name">ASTRIA FATAKI</div>
                 <div class="people_profesion">Founder & President</div>
             </div>
-            <div class="people_person">
+            <div class="people_person stagger_el3">
                 <img src="assets/people2.png" alt="people2.png">
                 <div class="people_name">Lucie BEAURAIN</div>
                 <div class="people_profesion">Entrepreneurship Programs Manager</div>
             </div>
-            <div class="people_person">
+            <div class="people_person stagger_el3">
                 <img src="assets/people3.png" alt="people3.png">
                 <div class="people_name">Odjouman ALLAGBE</div>
                 <div class="people_profesion">Communication Manager</div>
             </div>
-            <div class="people_person">
+            <div class="people_person stagger_el3">
                 <img src="assets/people4.png" alt="people4.png">
                 <div class="people_name">Pascaline HOUNOU</div>
                 <div class="people_profesion">Administrative Assistant</div>
             </div>
-            <div class="people_person">
+            <div class="people_person stagger_el3">
                 <img src="assets/people5.png" alt="people5.png">
                 <div class="people_name">Épiphanie AGBEVAN</div>
                 <div class="people_profesion">Academic Programs Managert</div>
             </div>
-            <div class="people_person">
+            <div class="people_person stagger_el3">
                 <img src="assets/people6.png" alt="people6.png">
                 <div class="people_name">Jonas FOLY</div>
                 <div class="people_profesion">Student Recrutement Officer</div>
             </div>
-            <div class="people_person">
+            <div class="people_person stagger_el3">
                 <img src="assets/people7.png" alt="people7.png">
                 <div class="people_name">Paul CAIRNS</div>
                 <div class="people_profesion">Founder & President</div>
             </div>
-            <div class="people_person">
+            <div class="people_person stagger_el3">
                 <img src="assets/people8.png" alt="people8.png">
                 <div class="people_name">Pascal ATEYO</div>
                 <div class="people_profesion">Technical Manager</div>
             </div>
-            <div class="people_person">
+            <div class="people_person stagger_el3">
                 <img src="assets/people9.png" alt="people9.png">
                 <div class="people_name">Ismaël TANKO</div>
                 <div class="people_profesion">Country Representative</div>
             </div>
-            <div class="people_person">
+            <div class="people_person stagger_el3">
                 <img src="assets/people10.png" alt="people10.png">
                 <div class="people_name">Matteo CARAYOL</div>
                 <div class="people_profesion">Innovation Manager</div>
@@ -165,7 +180,7 @@
         </div>
     </div>
     <section class="ourbusiness">
-        <div class="business_title">
+        <div class="business_title stagger_el4">
             OUR BUSINESS SCHOOL
         </div>
         <div class="spacelogo">
@@ -173,7 +188,10 @@
         </div>
 
         <div class="business_cont">
-            <div class="business_text">
+            <div class="businessphoto  stagger_el4">
+                <img src="assets/accueilimg1.png" alt="">
+            </div>
+            <div class="business_text stagger_el4">
                 <p>Our Business Schools are places where theory meets practice in order to turn innovative ideas
                     into viable businesses.
                 </p>
@@ -188,24 +206,21 @@
                     project.
                 </p>
             </div>
-            <div class="businessphoto">
-                <img src="assets/accueilimg1.png" alt="">
-            </div>
         </div>
-        <div class="button">
+        <div class="button btn_right stagger_el4">
             <button>Business & Energy School</button>
         </div>
     </section>
 
     <section class="solar_cont">
-        <div class="solar_title">
+        <div class="solar_title stagger_el5">
             SOLAR ENTREPRENEURSHIP TRAINING
         </div>
         <div class="spacelogo">
             <img src="assets/logo.png" alt="eg_logo">
         </div>
         <div class="solar_text">
-            <div class="solar_textpar">
+            <div class="solar_textpar stagger_el5">
                 <p>
                     As solar represents a real <span style="color: #232D84;font-weight: 800;">opportunity to create jobs
                         for young people</span> while participating in the
@@ -219,18 +234,18 @@
                     current needs and your future plans.
                 </p>
             </div>
-            <div class="solarphoto">
+            <div class="solarphoto stagger_el5">
                 <img src="assets/accueilimg2.png" alt="">
             </div>
         </div>
 
-        <div class="button btn_solar"><button>Solar training</button></div>
+        <div class="button btn_solar stagger_el5"><button>Solar training</button></div>
     </section>
 
 
 
     <section class="energy_space_cont">
-        <div class="energyspace_title">
+        <div class="energyspace_title stagger_el6">
             <div>THE ENERGY SPACE</div>
             <div>-INCUBATOR & SEED FUND-</div>
         </div>
@@ -239,11 +254,11 @@
         </div>
         <div class="energyspace_text">
 
-            <div class="working_img">
+            <div class="working_img stagger_el6">
                 <img src="assets/accueilimg3.png">
             </div>
 
-            <div class="spacetext">
+            <div class="spacetext stagger_el6">
                 <p>
                     The Energy Generation Incubator and Co-working space hosts promising start-ups in the field
                     of energy, and more.
@@ -257,7 +272,7 @@
                     incubator will welcome projects from the Business & Energy School but also several projects
                     from diverse backgrounds and African countries.
                 </p>
-                <div class="button btn_solar">
+                <div class="button btn_solar stagger_el6">
                     <button>Energy Space</button>
                 </div>
             </div>
@@ -269,10 +284,10 @@
     <!-- Start Footer section page -->
     <div class="footer_section">
         <div class="believers">
-            <div class="believer_title">
+            <div class="believer_title stagger_el_foot">
                 They believe in us !
             </div>
-            <div class="believer_el">
+            <div class="believer_el stagger_el_foot">
                 <div class="img1">
                     <img src="assets/believer1.png">
                 </div>
@@ -297,27 +312,28 @@
             </div>
         </div>
         <div class="footer">
-            <div class="newsletter">
+            <div class="newsletter stagger_el_foot">
                 <div class="newsletter_gtitle">Newsletter</div>
                 <div class="newsletter_ltitle">Get our latest info, podcasts, advices...</div>
-                <form action="#" class="newsletter_form">
-                    <input type="text" placeholder="First name">
-                    <input type="text" placeholder="Email">
+                <form action="news.php" method="post" class="newsletter_form">
+                    <input type="text" placeholder="First name" name="name">
+                    <input type="text" placeholder="Email" name="mail">
                     <fieldset>
-                        <label>
-                            <input type="checkbox">
+                        <legend>Campus Language</legend>
+                        <label class="radio">
+                            <input type="radio" name="lang" value="fr">
                             <span>Je préfère recevoir les informations en français</span>
                         </label>
                         <br>
-                        <label>
-                            <input type="checkbox">
+                        <label class="radio">
+                            <input type="radio" name="lang" value="en">
                             <span>I wish to receive the content in English</span>
                         </label>
                     </fieldset>
-                    <input type="button" class="subscribe_btn" value="Subscribe">
+                    <input type="submit" class="subscribe_btn" value="Subscribe" name="submit">
                 </form>
             </div>
-            <div class="social_links_section">
+            <div class="social_links_section stagger_el_foot">
                 <div class="logo_immg">
                     <img src="assets/logo.png">
                 </div>
@@ -336,23 +352,28 @@
                     </a>
                 </div>
             </div>
-            <div class="all_links">
+            <div class="all_links stagger_el_foot">
                 <div class="all_link_title">
                     Links
                 </div>
                 <ul class="site_links">
                     <li><a href="index.html">Accueil</a></li>
-                    <li><a href="index.html">Programs</a></li>
-                    <li><a href="index.html">Energy Space</a></li>
-                    <li><a href="index.html">Blog</a></li>
+                    <li><a href="business-energy.html">Programs</a></li>
+                    <li><a href="energy-space.html">Energy Space</a></li>
+                    <li><a href="blog.php">Blog</a></li>
                 </ul>
             </div>
-            <div class="copyright">
+            <div class="copyright stagger_el_foot">
                 © 2022 - Energy Generation - All rights reserved.
             </div>
         </div>
     </div>
     <!-- End Footer section page -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+    <script src="home.js"></script>
     <script type="text/javascript"
         src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
     <script type="text/javascript">
