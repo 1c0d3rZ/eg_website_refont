@@ -47,4 +47,4 @@
 
 Goto the Project Website Mockup: [Figma: Energy Generation](https://www.figma.com/file/fAwWbWA4bmqyCPI7QtD1L4/Energy-Generation?node-id=40%3A2)
 
-Goto the Project Website: [Energy Generation - Home]()
+Goto the Project Website: [Energy Generation - Home](http://energygen.epizy.com/)
