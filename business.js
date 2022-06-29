@@ -196,7 +196,6 @@ const TL9 = gsap.timeline({
     scrollTrigger: {
         trigger: form_section,
         toggleActions: "restart pause pause pause",
-        // scrub:1
     }
 });
 
@@ -204,7 +203,7 @@ TL9.staggerFrom(form_section, 1, {
     duration: 1,
     y: '100px',
     opacity: 0,
-}, 0.2, '-+1')
+}, 0.2, '-=1')
 
 var stagger_el_foot = document.querySelectorAll('.stagger_el_foot');
 
@@ -212,7 +211,6 @@ const TLM = gsap.timeline({
   scrollTrigger:{
     trigger: stagger_el_foot,
     toggleActions:"restart pause reverse pause",
-    scrub: 1
   }
 });
 

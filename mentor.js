@@ -37,9 +37,6 @@ const TL2 = gsap.timeline({
     scrollTrigger: {
         trigger: stagger_el2,
         toggleActions: "restart pause restart pause",
-        start: "top 100%",
-        end: "top 10%",
-        scrub: 1
     }
 });
 
@@ -56,9 +53,6 @@ const TL4 = gsap.timeline({
     scrollTrigger: {
         trigger: stagger_el4,
         toggleActions: "restart pause restart pause",
-        start: "top 100%",
-        end: "top 60%",
-        scrub: 1
     }
 });
 
@@ -77,7 +71,6 @@ const TLF = gsap.timeline({
         toggleActions: "restart pause reverse pause",
         start: "top 100%",
         end: "top 10%",
-        scrub: 1
     }
 });
 
